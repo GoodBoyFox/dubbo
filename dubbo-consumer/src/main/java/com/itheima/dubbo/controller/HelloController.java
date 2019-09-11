@@ -15,7 +15,7 @@ public class HelloController {
 	
 	@RequestMapping("/test")
 	public String hello() {
-		return helloService.sayHello("Java!");
+		return helloService.sayHello("Java Hello");
 	}
 
 }
